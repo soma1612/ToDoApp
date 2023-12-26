@@ -1,8 +1,13 @@
 import React from 'react';
-const Trash=()=>{
-    return(
+import MuiCard from '../controls/Card';
+import MuiSearchBar from '../controls/SearchBox';
+
+const Trash = () => {
+    return (
         <>
-        <h1>Trash</h1>
+            <MuiSearchBar />
+            <hr style={{ margin: '25px 0px' }} />
+            <MuiCard page="trash" />
         </>
     )
 }

@@ -8,7 +8,7 @@ const MuiSearchBar = () => {
     //     const handleRequestSearch=(value)=>{}
 
     return (
-        <Stack spacing={3} style={{ margin: '20px 0px', width:'30%' }}>
+        <Stack spacing={3} style={{ margin: "20px 0px", width: "32%" }}>
             <Autocomplete
                 multiple
                 id="tags-standard"
@@ -21,29 +21,27 @@ const MuiSearchBar = () => {
                         variant="standard"
                         label="Search Tasks"
                         placeholder="Search Tasks"
-
                     //value={value}
                     //onChange={handleChange}
                     //onRequestSearch={handleRequestSearch}sx={{ width: 500 }}
                     />
                 )}
             />
-
         </Stack>
     );
-   
+
 }
 
 export default MuiSearchBar;
 
- //     return (
-    //         <SearchBar
-    //           value={value}
-    //           onChange={handleChange}
-    //          // onRequestSearch={handleRequestSearch}
-    //         //   onRequestSearch={() => doSomethingWith(this.state.value)}
-    //         />
-    //       );
+//     return (
+//         <SearchBar
+//           value={value}
+//           onChange={handleChange}
+//          // onRequestSearch={handleRequestSearch}
+//         //   onRequestSearch={() => doSomethingWith(this.state.value)}
+//         />
+//       );
 
 
 //import * as React from 'react';

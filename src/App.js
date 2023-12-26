@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Paper } from '@mui/material';
-import MuiButton from './components/controls/flottingAddButton';
+import MuiButton from './components/controls/FloatingAddButton';
 import Routing from './components/layout/Routing';
 
 
@@ -10,8 +10,7 @@ const App = () => {
         <div className='App'>
             <Paper sx={{ padding: '32px' }}>
                 <Routing />
-                {/* <MuiButton className='FLbutton'/> */}
-               
+                <MuiButton />
             </Paper>
         </div>
     )

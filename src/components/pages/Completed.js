@@ -1,8 +1,13 @@
 import React from 'react';
-const Comlpleted=()=>{
-    return(
+import MuiCard from '../controls/Card';
+import MuiSearchBar from '../controls/SearchBox';
+
+const Comlpleted = () => {
+    return (
         <>
-        <h1>Comlpleted</h1>
+            <MuiSearchBar />
+            <hr style={{ margin: '25px 0px' }} />
+            <MuiCard page="completed" />
         </>
     )
 }
